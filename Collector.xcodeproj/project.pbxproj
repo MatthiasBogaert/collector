@@ -13,6 +13,8 @@
 		73B8585520C5ECE600F78E25 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73B8585320C5ECE600F78E25 /* Collector.xcdatamodeld */; };
 		73B8585720C5ECE600F78E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B8585620C5ECE600F78E25 /* Assets.xcassets */; };
 		73B8585A20C5ECE600F78E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B8585820C5ECE600F78E25 /* LaunchScreen.storyboard */; };
+		73B8586220C6B12700F78E25 /* invoice-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B8586120C6B12700F78E25 /* invoice-512.png */; };
+		73B8586420C6C2A500F78E25 /* CollectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8586320C6C2A500F78E25 /* CollectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		73B8585620C5ECE600F78E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73B8585920C5ECE600F78E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73B8585B20C5ECE600F78E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B8586120C6B12700F78E25 /* invoice-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invoice-512.png"; sourceTree = "<group>"; };
+		73B8586320C6C2A500F78E25 /* CollectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		73B8584B20C5ECE600F78E25 /* Collector */ = {
 			isa = PBXGroup;
 			children = (
+				73B8586120C6B12700F78E25 /* invoice-512.png */,
 				73B8584C20C5ECE600F78E25 /* AppDelegate.swift */,
 				73B8584E20C5ECE600F78E25 /* ViewController.swift */,
 				73B8585020C5ECE600F78E25 /* Main.storyboard */,
+				73B8586320C6C2A500F78E25 /* CollectorViewController.swift */,
 				73B8585620C5ECE600F78E25 /* Assets.xcassets */,
 				73B8585820C5ECE600F78E25 /* LaunchScreen.storyboard */,
 				73B8585B20C5ECE600F78E25 /* Info.plist */,
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B8586220C6B12700F78E25 /* invoice-512.png in Resources */,
 				73B8585A20C5ECE600F78E25 /* LaunchScreen.storyboard in Resources */,
 				73B8585720C5ECE600F78E25 /* Assets.xcassets in Resources */,
 				73B8585220C5ECE600F78E25 /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 			files = (
 				73B8585520C5ECE600F78E25 /* Collector.xcdatamodeld in Sources */,
 				73B8584F20C5ECE600F78E25 /* ViewController.swift in Sources */,
+				73B8586420C6C2A500F78E25 /* CollectorViewController.swift in Sources */,
 				73B8584D20C5ECE600F78E25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X482F3UQWC;
 				INFOPLIST_FILE = Collector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.comflow.Collector;
@@ -293,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X482F3UQWC;
 				INFOPLIST_FILE = Collector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.comflow.Collector;
